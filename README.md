@@ -1,69 +1,56 @@
-# Welcome to your Lovable project
 
-## Project info
+# HelpMart Desktop Application
 
-**URL**: https://lovable.dev/projects/ceac5ce4-57d4-490b-bf5d-98e7f709cf8b
+HelpMart is a desktop application that allows low-income individuals to trade essential goods and services without using money. It fosters community support, reduces waste, and promotes financial inclusion by enabling fair and need-based exchanges.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- Browse available items and services
+- Light and dark theme
+- Interactive UI with animations
+- Point-based exchange system
 
-**Use Lovable**
+## Requirements
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ceac5ce4-57d4-490b-bf5d-98e7f709cf8b) and start prompting.
+- Python 3.7+
+- PyQt5
+- Pillow (for image processing)
 
-Changes made via Lovable will be committed automatically to this repo.
+## Installation
 
-**Use your preferred IDE**
+1. Clone or download this repository
+2. Install the required dependencies:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+pip install -r requirements.txt
 ```
 
-**Edit a file directly in GitHub**
+3. Run the application:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+python helpmart_desktop.py
+```
 
-**Use GitHub Codespaces**
+## Usage
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The application has multiple pages:
+- Home: Shows featured items and how the platform works
+- Browse: Shows all available items with filtering options
 
-## What technologies are used for this project?
+Use the navigation buttons at the top to switch between pages. 
+You can also toggle between light and dark themes using the theme button.
 
-This project is built with .
+## Development
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This application is built using:
+- PyQt5 for the GUI framework
+- Custom styling and animations
+- Mock data (in a real application, this would be replaced with a database)
 
-## How can I deploy this project?
+## Future Enhancements
 
-Simply open [Lovable](https://lovable.dev/projects/ceac5ce4-57d4-490b-bf5d-98e7f709cf8b) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- User authentication system
+- Database integration
+- Message/chat system for users
+- Rating and review system
+- Mobile app version
